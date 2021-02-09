@@ -82,7 +82,12 @@
       </style>
       <div class="container">
         <h1>Storm Chasers</h1>
-        <p>Click here</p>
+        <p>
+          A discord bot written in C# .NET Core to show breeding and stats on 
+            existing and exported dinosaurs within <i>
+              <b>Ark Survival Evolved</b>
+            </i>.
+        </p>
       </div>
     </div>
   </foreignObject>
