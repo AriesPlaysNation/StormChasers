@@ -340,5 +340,5 @@ ASALocalRun/
 healthchecksdb
 
 # Personal ignores:
-*./config.json
+*.config.json
 
