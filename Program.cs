@@ -19,7 +19,7 @@ namespace StormChasers
         private IServiceProvider _service;
         private IConfiguration _config;
 
-        private String prefix = "~";
+        private String prefix = "";
         private String playing = "";
         private String donate = "";
         private String serverid = "";
@@ -35,9 +35,16 @@ namespace StormChasers
                 .SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile(path: "configs/config.json");
             _config = _builder.Build();
-            donate = _config["donate"];
+            //new?
+            donate = _config.GetSection("setup").GetSection("donate").Value;
+            playing = _config.GetSection("setup").GetSection("playing").Value;
+            serverid = _config.GetSection("setup").GetSection("serverid").Value;
+            prefix = _config.GetSection("setup").GetSection("prefix").Value;
+
+            //old?
+            /*donate = _config["donate"];
             playing = _config["playing"];
-            serverid = _config["serverinfo"];
+            serverid = _config["serverinfo"];*/
         }
 
         public async Task RunBotAsync()
@@ -53,7 +60,7 @@ namespace StormChasers
             _client.Log += _client_Log;
 
             await RegisterCommandsAsync();
-            await _client.LoginAsync(TokenType.Bot, _config["token"]);
+            await _client.LoginAsync(TokenType.Bot, _config.GetSection("setup").GetSection("token").Value);
             await _client.StartAsync();
             await _client.SetGameAsync(playing, type: ActivityType.Playing);
             await Task.Delay(-1);

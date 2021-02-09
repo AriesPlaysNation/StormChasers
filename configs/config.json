@@ -1,10 +1,14 @@
 {
-  "owner": "",
-  "token": "INSERT TOKEN",
-  "prefix": "~",
-  "dbKey": "",
-  "dbName": "",
-  "serverid":  "",
-  "donate": "https://paypal.me/TheAriesPlays",
-  "playing": "Hacking the pentagon!"
+  "setup": {
+    "owner": "",
+    "token": "INSERT TOKEN",
+    "prefix": "~",
+    "dbKey": "",
+    "dbName": "",
+    "serverid": "",
+    "donate": "https://paypal.me/TheAriesPlays",
+    "playing": "Hacking the pentagon!"
+  }
+  
+
 }
