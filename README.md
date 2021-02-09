@@ -6,5 +6,7 @@
 <p>
   Must put a "configs" folder in main structure then a new json file called "configs.json".
   Contents are:
-  
+  <ul>
+    <li>Hello</li>
+  </ul>
 </p>
