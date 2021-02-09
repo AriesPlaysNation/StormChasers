@@ -18,6 +18,5 @@
     "donate": "https://paypal.me/TheAriesPlays",<br>
     "playing": "Hacking the pentagon!"<br>
   }<br>
-
 }
 </p>
