@@ -4,6 +4,10 @@
 <h3 align="center">The new Ark Smart Breeder discord bot</h3>
 </p>
 
+<p align="center">
+    A discord bot written in C# .NET Core to show breeding and stats on existing and exported dinosaurs within Ark Survival Evolved.
+</p>
+
 <div align="center">
   <br>
   <a href="https://www.github.com/AriesPlaysNation/StormChasers">

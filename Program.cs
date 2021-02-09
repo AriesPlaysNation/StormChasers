@@ -35,6 +35,7 @@ namespace StormChasers
                 .SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile(path: "configs/config.json");
             _config = _builder.Build();
+
             //new?
             donate = _config.GetSection("setup").GetSection("donate").Value;
             playing = _config.GetSection("setup").GetSection("playing").Value;
