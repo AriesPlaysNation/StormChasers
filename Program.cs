@@ -44,7 +44,7 @@ namespace StormChasers
             //old?
             /*donate = _config["donate"];
             playing = _config["playing"];
-            serverid = _config["serverinfo"];*/
+            serverid = _config["serverinfo"]; */
         }
 
         public async Task RunBotAsync()
