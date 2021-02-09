@@ -3,6 +3,14 @@
 <h2>Welcome to StormChaser</h2>
 <h3>The new Ark Smart Breeder discord bot</h3>
 </p>
+
+<div align="center">
+  <br>
+  <a href="">
+    <img src="img/readme.svg" width="800" height="400" alt="Hello">
+  </a>
+</div>
+
 <p>
   Must put a "configs" folder in main structure then a new json file called "configs.json".
   Contents are:
