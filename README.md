@@ -7,7 +7,7 @@
 <div align="center">
   <br>
   <a href="https://www.github.com/AriesPlaysNation/StormChasers">
-    <img src="img/readme.svg" width="800" height="400" alt="Hello">
+    <img src="img/readme.svg" width="800" height="400" alt="Storm Chasers SVG">
   </a>
 </div>
 
