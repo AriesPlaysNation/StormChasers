@@ -1,4 +1,4 @@
-<p align="center"># StormChasers</p>
+<p align="center"><h1># StormChasers</h1></p>
 <p>
 <h2>Welcome to StormChaser</h2>
 <h3>The new Ark Smart Breeder discord bot</h3>
