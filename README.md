@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    A discord bot written in C# .NET Core to show breeding and stats on existing and exported dinosaurs within <i><b>Ark Survival Evolved</b></i>.
+    A discord bot written in C# .NET Core to show breeding and stats on<br>existing and exported dinosaurs within <i><b>Ark Survival Evolved</b></i>.
 </p>
 
 <div align="center">
