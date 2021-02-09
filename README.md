@@ -1,7 +1,7 @@
 
-<p align="center">
-<h2>Welcome to StormChaser</h2>
-<h3>The new Ark Smart Breeder discord bot</h3>
+<p>
+<h2 align="center">Welcome to StormChaser</h2>
+<h3 align="center">The new Ark Smart Breeder discord bot</h3>
 </p>
 
 <div align="center">
