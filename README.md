@@ -6,7 +6,18 @@
 <p>
   Must put a "configs" folder in main structure then a new json file called "configs.json".
   Contents are:
-  <ul>
-    <li>Hello</li>
-  </ul>
+  
+  {
+  "setup": {
+    "owner": "",
+    "token": "your specific token for discord Autho0",
+    "prefix": "your prefix character",
+    "dbKey": "",
+    "dbName": "",
+    "ivytechserverid": "your specific server id",
+    "donate": "https://paypal.me/TheAriesPlays",
+    "playing": "Hacking the pentagon!"
+  }
+
+}
 </p>
